@@ -30,6 +30,8 @@ const multiplier = (array) => {
   return array * 3
 }
 // Pseudo code:
+//Input: An array of numbers
+//Output: A new array of multiplied by 3
 
 // --------------------1) Create a function that takes a object as an argument and decides if the number inside it is evenly divisible by three or not.
 
@@ -58,6 +60,8 @@ const divisbleBy = (a) => {
   }
 }
 // Pseudo code: 
+//Input: An object with number
+//Output: A statement stating if the given number is evenly divisible by three
 
 // --------------------2) Create a function that takes in an array of words and returns an array with all the words capitalized.
 
@@ -80,3 +84,5 @@ const capitalizer = (array) => {
   })
 }
 // Pseudo code:
+//Input: An array of words
+//Output: An array of all the workds capitalized
