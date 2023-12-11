@@ -32,6 +32,8 @@ const multiplier = (array) => {
 // Pseudo code:
 //Input: An array of numbers
 //Output: A new array of multiplied by 3
+//Write a jest for testing
+//Write a function to generate any input number miltiplied by 3
 
 // --------------------1) Create a function that takes a object as an argument and decides if the number inside it is evenly divisible by three or not.
 
@@ -62,6 +64,8 @@ const divisbleBy = (a) => {
 // Pseudo code: 
 //Input: An object with number
 //Output: A statement stating if the given number is evenly divisible by three
+//Write a jest for testing
+//Write a function to see if given number is divisible by 3, and set each possible cases and have different return statement
 
 // --------------------2) Create a function that takes in an array of words and returns an array with all the words capitalized.
 
@@ -86,3 +90,6 @@ const capitalizer = (array) => {
 // Pseudo code:
 //Input: An array of words
 //Output: An array of all the workds capitalized
+//Write a jest for testing
+//Write a function to make each strings in array with upper case for the first letter and remaining letters as it is.
+//use Map function to have the same number of arrays
