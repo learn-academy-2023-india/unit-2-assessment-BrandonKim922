@@ -40,25 +40,27 @@ const multiplier = (array) => {
 // a) Create a test with expect statements for each of the variables provided.
 describe("divisbleBy", () => {
   it("is a function called divisibleBy that takes a number as arguments and returns whether the number is evenly divisible by three", () => {
-    expect(divisbleBy(15)).toEqual("15 is evenly divisible by three")
-    expect(divisbleBy(0)).toEqual("0 is evenly divisible by three")
-    expect(divisbleBy(-7)).toEqual("-7 is not evenly divisible by three")
-  })
-})
-
-const object1 = { number: 15 }
+    const object1 = { number: 15 }
 // Expected output: "15 is divisible by three"
 const object2 = { number: 0 }
 // Expected output: "0 is divisible by three"
 const object3 = { number: -7 }
 // Expected output: "-7 is not divisible by three"
+    expect(divisbleBy(object1)).toEqual("15 is evenly divisible by three")
+    expect(divisbleBy(object2)).toEqual("0 is evenly divisible by three")
+    expect(divisbleBy(object3)).toEqual("-7 is not evenly divisible by three")
+  })
+})
+
+
 
 // b) Create the function that makes the test pass.
 const divisbleBy = (a) => {
-  if(a % 3 === 0)
-  return `${a} is evenly divisible by three`
+  console.log(a.number)
+  if(a.number % 3 === 0)
+  return `${a.number} is evenly divisible by three`
   else {
-      return `${a} is not evenly divisible by three`
+      return `${a.number} is not evenly divisible by three`
   }
 }
 // Pseudo code: 
